@@ -58,8 +58,7 @@ def main():
     current_month = int(input("Enter current month: "))
     current_day = int(input("Enter current day: "))
 
-    days_between = daysBetweenDates(
-        birth_year, birth_month, birth_day, current_year, current_month, current_day)
+    days_between = daysBetweenDates(birth_year, birth_month, birth_day, current_year, current_month, current_day)
     print("Days between birth date and current date:", days_between)
 
 
