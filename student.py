@@ -1,8 +1,7 @@
 def main():
     name = get_name()
     house = get_house()
-    print("hero mera   ", sep="")
-    print("hero mera   ", sep="")
+    print("hero mera", "hello",sep="???????????????")
 
 def get_name():
     return input("Name: ")
