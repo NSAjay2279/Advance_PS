@@ -1,7 +1,7 @@
 def main():
     student = get_student()
-    if student == "Padma":
-        student[1] = "Ravenclaw"
+    if student[0] == "Padma":
+        student[1] == "Ravenclaw"
     print(f"{student[0]} from {student[1]}")
 
 
