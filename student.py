@@ -1,7 +1,7 @@
 def main():
     name = get_name()
     house = get_house()
-    print(f"{name} from {house}")
+    print(f"{name} from {house}", sep="")
 
 
 def get_name():
