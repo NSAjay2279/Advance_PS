@@ -10,3 +10,7 @@ def get_name():
 
 def get_house():
     return input("House: ")
+
+
+if __name__ == "__main__":
+    main()
