@@ -3,7 +3,7 @@ class Student {
         String name;
         String house;
 
-        static void Student(String name, String house) {
+        public Student(String name, String house) {
             this.name = name;
             this.house = house;
             return 0;
