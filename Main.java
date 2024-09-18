@@ -7,3 +7,5 @@ class Main {
         Student student = new Student(name, house);
     }
 }
+
+

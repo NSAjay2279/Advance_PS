@@ -1,14 +1,9 @@
 class Student {
-    public static void main(String[] args) {
-        String name;
-        String house;
+    private String name;
+    private String house;
 
-        public Student(String name, String house) {
-            this.name = name;
-            this.house = house;
-            return 0;
-        }
-    }
+  public Student(String name, String house) {
+    this.name = name;
+    this.house = house;  
+  }
 }
-
-
