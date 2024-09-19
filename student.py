@@ -3,7 +3,7 @@ class Student:
         if not name:
             raise ValueError("Missing name")
         if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
-            raise ValueError()
+            raise ValueError("Invalid house")
         self.name = name
         self.house = house
 
