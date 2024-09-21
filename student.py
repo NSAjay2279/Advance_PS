@@ -2,6 +2,8 @@ class Student:
     def __init__(self, name, house):
         ...
 
+    def __str__(self):
+        return "a student"
 
 def main():
     student = get_student()
